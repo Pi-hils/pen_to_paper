@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 12px;
+  font-size: 15px;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ffc85a;
+  color: rgb(197, 152, 53);
   text-decoration: none;
 }
 
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #ffb727;
+  color:rgb(255, 246, 192);
 }
 
 .nav-menu .drop-down > a:after {
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #ffb727;
+  color: #ff276f;
   text-decoration: none;
 }
 
@@ -352,6 +352,9 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+/* #hero a {
+  color: rgb(150, 8, 31);
+} */
 #hero .btn-scroll {
   transition: 0.4s;
   color: rgba(255, 255, 255, 0.6);
@@ -363,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-scroll:hover {
-  color: #ffb727;
+  color: #ff2768;
 }
 
 @media (min-width: 1024px) {
@@ -418,14 +421,14 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 48px;
+  font-weight: 750;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #3b434a;
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 .section-title span {
@@ -445,6 +448,7 @@ section {
   margin-bottom: 0;
   position: relative;
   z-index: 2;
+  font-size: 25px;
 }
 
 @media (max-width: 575px) {
@@ -522,13 +526,14 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 36px;
   color: #3b434a;
   text-transform: uppercase;
 }
 
 .about .content p {
   margin-bottom: 0;
+  font-size: 20px;
 }
 
 .about .content ul {
@@ -571,7 +576,7 @@ section {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 24px;
   color: #5d6a75;
 }
 
@@ -590,9 +595,10 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/love_beach.jpg") center center no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 400px;
+  min-width: 200px;
 }
 
 .about .skills-content {
