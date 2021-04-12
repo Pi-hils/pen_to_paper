@@ -1,6 +1,6 @@
 
 # Pen to Paper
-Pen to Paper is a website created for everyone grieving or dealing with a loss.
+Pen to Paper is a website created for everyone grieving or dealing with a loss..
 
 ## Languages
 - Bootstrap 5
